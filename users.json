@@ -1,0 +1,101 @@
+[{
+  "_id": {
+    "$oid": "6286a0767a77500f2722d916"
+  },
+  "firstName": "Manager",
+  "lastName": "Admin",
+  "phoneNumber": "07030901629",
+  "email": "manager@gmail.com",
+  "password": "$2b$10$Gd1/fBiGWhnHJDl6/YuP6uB39NrryQyNfp5Og/lPFsv6.KKLS5SQ.",
+  "role": {
+    "trainee": false,
+    "staff": false,
+    "manager": true
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1652990070598"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1652990070598"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "629e8c185f5ab8e6125061ab"
+  },
+  "firstName": "Kenn",
+  "lastName": "Dame",
+  "phoneNumber": "07037180493",
+  "email": "infoparvic@gmail.com",
+  "password": "$2b$10$uKnc5ayhfVYFOzgw5375iOQo4aqBgwphRAXFLH40waNGW.2.6pWnW",
+  "role": {
+    "trainee": null,
+    "staff": false,
+    "manager": true
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1654557720104"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1654557720104"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62dbfa324f468606dfca3ec0"
+  },
+  "firstName": "Paschal",
+  "lastName": "Chidera",
+  "phoneNumber": "07063397512",
+  "email": "onahpaschal18092009@gmail.com",
+  "password": "$2b$10$dI3FUOtUL9hYZ7Ovo4ba8eMe.EQl1Qdn4W9ebfJdl9nIqe2N5CVfO",
+  "role": {
+    "trainee": false,
+    "staff": true,
+    "manager": false
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1658583602403"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1658583602403"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "630c96ca3f3ce509cdad685c"
+  },
+  "firstName": "Charlse",
+  "lastName": "Onugu",
+  "phoneNumber": "09162220163",
+  "email": "ejiofoonugu@gmail.com",
+  "password": "$2b$10$0r3GuHuFtB.Mlw6us8VE4.cfDWIqMNBV2J1PUjjKqPuiHJuz77iJy",
+  "role": {
+    "trainee": null,
+    "staff": true,
+    "manager": true
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1661769418241"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1661769418241"
+    }
+  },
+  "__v": 0
+}]
