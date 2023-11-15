@@ -1,7 +1,6 @@
 import cors from 'cors'
 import env from 'dotenv'
 import express from 'express'
-import mongoose from 'mongoose'
 import { CATEGORY_ROUTER } from './src/routes/categoryRoute.js'
 import { CUSTOMER_ROUTER } from './src/routes/customerRoute.js'
 import { ORDER_ROUTER } from './src/routes/orderRoute.js'
@@ -22,7 +21,7 @@ const appServer = async () => {
 
 
     const __dirname = path.resolve()
-    const PORT = process.env.PORT
+    const PORT = process.env.PORT || 5000
     const staticDir = path.join(__dirname +'/public/static')
 
     await databaseConnection()

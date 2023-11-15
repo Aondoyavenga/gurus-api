@@ -4,7 +4,7 @@ GLOBAL.mongoose.set('strictQuery', false)
 export const databaseConnection = async () => {
     try {
        
-        GLOBAL.mongoose.connect(`mongodb+srv://peteraondoyavenga:iWnJtsgL0kv9ufzb@gurudb.zlkt3vm.mongodb.net/?retryWrites=true&w=majority`);
+        GLOBAL.mongoose.connect(`mongodb+srv://admin:RaCYnpIDNDbnr2Q7@ikapos.5urmfnl.mongodb.net`);
     } catch (error) {
         console.log('Error ============');
     }
